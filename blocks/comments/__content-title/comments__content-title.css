@@ -1,0 +1,41 @@
+.comments__content-title {
+    width: 100%;
+    max-width: 800px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    text-align: center;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 425px) {
+    .comments__content-title {
+        width: 90%;
+        font-size: 2rem;
+        line-height: 1.1;
+    }
+}
+
+@media screen 
+and (min-width: 426px)
+and (max-width: 529px) {
+    .comments__content-title {
+        width: 90%;
+        font-size: 2.3rem;
+        line-height: 1.1;
+    }
+}
+
+@media screen 
+and (min-width: 530px)
+and (max-width: 768px) {
+    .comments__content-title {
+        width: 90%;
+        font-size: 2.6rem;
+        line-height: 1.2;
+    }
+}

@@ -1,0 +1,20 @@
+.intro__subline {
+    width: 100%;
+    max-width: 383px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    color: #fff;
+    margin: 35px 0 0;
+}
+
+@media screen and (max-width: 425px) {
+    .intro__subline {
+        width: 90%;
+        font-size: .75rem;
+        line-height: 1.6; 
+        margin: 32px 16px 0;
+    }
+}

@@ -1,0 +1,144 @@
+@import url('../vendor/fonts/inter.css');
+/* Блок Header */
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__wrap/header__wrap.css');
+@import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__link/_current/header__link_current.css');
+/* Блок Lead */
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/__title/lead__title.css');
+@import url('../blocks/lead/__subtitle/lead__subtitle.css');
+@import url('../blocks/lead/__wrap/lead__wrap.css');
+@import url('../blocks/lead/__image/lead__image.css');
+@import url('../blocks/lead/__caption/lead__caption.css');
+/* Блок Intro */
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__title/intro__title.css');
+@import url('../blocks/intro/__text/intro__text.css');
+@import url('../blocks/intro/__subline/intro__subline.css');
+/* Блок Photo-grid */
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/photo-grid/__image/photo-grid__image.css');
+/* Блок Places */
+@import url('../blocks/places/places.css');
+@import url('../blocks/places/__place/places__place.css');
+@import url('../blocks/places/__title/places__title.css');
+@import url('../blocks/places/__website/places__website.css');
+@import url('../blocks/places/__url-heading/places__url-heading.css');
+@import url('../blocks/places/__url/places__url.css');
+@import url('../blocks/places/__image/places__image.css');
+@import url('../blocks/places/__wrap/places__wrap.css');
+@import url('../blocks/places/__text/places__text.css');
+/* Блок Video */
+@import url('../blocks/video/video.css');
+@import url('../blocks/video/__content-title/video__content-title.css');
+@import url('../blocks/video/__content-subtitle/video__content-subtitle.css');
+@import url('../blocks/video/__container/video__container.css');
+@import url('../blocks/video/__item/video__item.css');
+@import url('../blocks/video/__item/_bg.css/video__item_bg.css');
+@import url('../blocks/video/__item/_bg.css/_Kamchatka/item_bg_Kamchatka.css');
+@import url('../blocks/video/__item/_bg.css/_Observatory/item_bg_Observatory.css');
+@import url('../blocks/video/__wrap/video__wrap.css');
+@import url('../blocks/video/__icon-play/video__icon-play.css');
+@import url('../blocks/video/__duration/video__duration.css');
+@import url('../blocks/video/__title/video__title.css');
+@import url('../blocks/video/__subtitle/video__subtitle.css');
+/* Блок Comments */
+@import url('../blocks/comments/comments.css');
+@import url('../blocks/comments/__content-title/comments__content-title.css');
+@import url('../blocks/comments/__content-subtitle/comments__content-subtitle.css');
+@import url('../blocks/comments/__container/comments__container.css');
+@import url('../blocks/comments/__box/comments__box.css');
+@import url('../blocks/comments/__image/comments__image.css');
+@import url('../blocks/comments/__quote/comments__quote.css');
+@import url('../blocks/comments/__quote-text/comments__quote-text.css');
+@import url('../blocks/comments/__author/comments__author.css');
+/* Блок Cover */
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/cover/__link/cover__link.css');
+@import url('../blocks/cover/__title/cover__title.css');
+@import url('../blocks/cover/__subtitle/cover__subtitle.css');
+@import url('../blocks/cover/__bg/cover__bg.css');
+/* Блок Footer */
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__links/footer__links.css');
+@import url('../blocks/footer/__item/footer__item.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__author/footer__author.css');
+
+.page-wrapper {
+    width: 100%;
+    background: #2A2C2F;
+}
+
+.page {
+    width: 100vw;
+    max-width: 1440px;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    background: #2A2C2F;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 425px) {
+    .page {
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+}
+
+@media screen 
+and (min-width: 425px)
+and (max-width: 768px) {
+    .page {
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+}
+
+@media screen
+and (min-width: 769px)
+and (max-width: 1024px) {
+    .page {
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+}
+
+@media screen
+and (min-width: 1025px)
+and (max-width: 1280px) {
+    .page {
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+}
+
+@media screen
+and (min-width: 1281px)
+and (max-width: 1440px) {
+    .page {
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+}

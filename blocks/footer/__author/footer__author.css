@@ -1,0 +1,28 @@
+.footer__author {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #ccc;
+}
+
+@media screen and (max-width: 425px) {
+    .footer__author {
+        align-self: flex-start;
+        margin: 45px 16px 24px;
+    }
+}
+
+@media screen
+and (min-width: 769px)
+and (max-width: 1024px) {
+    .footer__author {
+        align-self: center;
+        margin:0 16px 0;
+    }
+}

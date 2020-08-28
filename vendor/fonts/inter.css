@@ -1,0 +1,19 @@
+@font-face {
+  src: url('./__file/Inter-Regular.woff') format('woff'),
+      url('./__file/Inter-Regular.woff2') format('woff2'),
+      url('./__file/Inter-Regular.otf') format('otf'),
+      url('./__file/Inter-Regular.ttf') format('truetype');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url('./__file/Inter-ExtraBold.woff') format('woff'),
+      url('./__file/Inter-ExtraBold.woff2') format('woff2'),
+      url('./__file/Inter-ExtraBold.otf') format('otf'),
+      url('./__file/Inter-ExtraBold.ttf') format('truetype');
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900; 
+}

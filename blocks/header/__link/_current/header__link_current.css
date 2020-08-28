@@ -1,0 +1,4 @@
+.header__link_current {
+    border-bottom: 2px solid currentColor;
+    padding-top: 3px;
+}

@@ -1,0 +1,21 @@
+.video__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 0 30px 30px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 425px) {
+    .video__wrap {
+        margin: 0 16px 16px;
+    }
+}
+
+@media screen 
+and (min-width: 426px)
+and (max-width: 768px) {
+    .video__wrap {
+        margin: 0 24px 24px;
+    }
+}

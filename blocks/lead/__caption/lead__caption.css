@@ -1,0 +1,33 @@
+.lead__caption {
+    width: 100%;
+    max-width: 636px;
+    align-self: flex-start;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ccc;
+    margin: 11px 0 0;
+}
+
+@media screen and (max-width: 425px) {
+    .lead__caption {
+        align-self: center;
+        width: 92.5%;
+        font-size: .6rem;
+        margin: 8px 16px 0;
+    }
+}
+
+@media screen 
+and (min-width: 425px)
+and (max-width: 768px) {
+    .lead__caption {
+        font-size: .8rem;
+        margin: 16px 24px 0;
+    }
+}

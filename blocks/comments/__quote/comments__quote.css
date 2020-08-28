@@ -1,0 +1,16 @@
+.comments__quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 0;
+    margin: 40px 0 0;
+}
+
+@media screen and (max-width: 425px) {
+    .comments__quote {
+        width: 95%;
+        justify-content: center;
+        margin: 0;
+    }
+}
