@@ -1,4 +1,4 @@
-[Путешествия по России](https://genry12oz.github.io/praktikum_4/)
+[Путешествия по России](https://genry12oz.github.io/Travel-in-Russia/)
 ===
 Учебный проект по верстке
 ---
